@@ -8,5 +8,7 @@ config_vars:
   TMPDIR: "/app/tmp"
 default_process_types:
   console: "vendor/xvfb/Xvfb/bin/Xvfb :6789"
+  worker: "vendor/xvfb/Xvfb/bin/Xvfb :6789"
+  web: "vendor/xvfb/Xvfb/bin/Xvfb :6789"  
 EOF
   
